@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kurta dukan</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-left">
+            <i class="fa-solid fa-truck"></i>
+            <p>
+                Free shipping for orders above Rs.5000 across Pakistan.
+            </p>
+        </div>
+        <div class="top-right">
+            <p>wishlist sell on kurta dukan</p>
+        </div>
+    </div>
+
+    <div class="header">
+        <!--left logo-->
+        <div class="header-left">
+            <div class="logo"><img src="./recources/logo.jpg" alt=""></div>
+        </div>
+        <!--center search-->
+        <div class="header-center">
+            <input type="text" placeholder="search our catalog">
+        </div>
+        <!--right icons-->
+        <div class="header-right">
+
+            <div class="icon-box">
+                <i class="fa-solid fa-user fa-flip-horizontal"></i>
+                <p> Sign In</p>
+            </div>
+            <div class="icon-box">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>Cart</p>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div><img src="./recources/Mens collection.jpg">
+        </div>
+        <div><img src="./recources/banner change.jpg">
+        </div>
+        <div><img src="./recources/saya-slider (1).jpg">
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+        <script>
+
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 20000,
+                dots: true,
+                arrows: true,
+                vertical: false, //imprtant!
+            });
+
+        </script>
+</body>
+
+</html>
